@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://v1k70rk4.github.io/HASS.Agent.NET10/sitemap.xml

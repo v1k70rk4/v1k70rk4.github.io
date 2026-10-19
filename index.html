@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HASS.Agent .NET10: Windows companion for Home Assistant</title>
+  <meta name="description" content="A free Windows companion app for Home Assistant, with notifications, media player, sensors, commands and one-click updates, over MQTT or the WebSocket API.">
+  <link rel="canonical" href="https://v1k70rk4.github.io/">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="HASS.Agent .NET10: Windows companion for Home Assistant">
+  <meta property="og:description" content="A free Windows companion app for Home Assistant, with notifications, media player, sensors, commands and one-click updates.">
+  <meta property="og:url" content="https://v1k70rk4.github.io/">
+  <meta property="og:image" content="https://v1k70rk4.github.io/HASS.Agent.NET10/images/social-preview.png">
+  <style>
+    :root {
+      --bg: #f1f5f9; --card: #ffffff; --text: #0f172a; --muted: #475569; --border: #e2e8f0;
+      --accent: #2563eb; --accent-text: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --border: #334155; --accent: #3b82f6; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 32px 16px; background: var(--bg); color: var(--text);
+      font: 16px/1.5 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+    }
+    main { width: 100%; max-width: 560px; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 32px; }
+    .head { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+    .head img { width: 64px; height: 64px; }
+    h1 { font-size: 24px; line-height: 1.25; margin: 0; }
+    p { margin: 0 0 24px; color: var(--muted); }
+    .links { display: flex; flex-wrap: wrap; gap: 12px; }
+    a.button {
+      display: inline-block; padding: 10px 18px; border-radius: 8px; text-decoration: none; font-weight: 600;
+      border: 1px solid var(--accent); color: var(--accent);
+    }
+    a.button.primary { background: var(--accent); color: var(--accent-text); }
+    a.button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="head">
+        <img src="/icon.png" alt="" width="64" height="64">
+        <h1>HASS.Agent .NET10</h1>
+      </div>
+      <p>A free Windows companion app for Home Assistant: notifications, a media player, sensors, commands and one-click updates, over MQTT or the WebSocket API, with its integration in HACS.</p>
+      <div class="links">
+        <a class="button primary" href="/HASS.Agent.NET10/">Website and docs</a>
+        <a class="button" href="https://github.com/v1k70rk4/HASS.Agent.NET10">Windows app on GitHub</a>
+        <a class="button" href="https://github.com/v1k70rk4/HASS.Agent.NET10-Integration">Integration on GitHub</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
